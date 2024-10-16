@@ -74,7 +74,7 @@ Our architecture leverages highly scalable AWS services:
 - **Business justification**: QuickSight empowers business users to explore data and gain insights without requiring advanced technical skills.
 
 #### Quantifiable Benefits
-- Increased conversions: 15% increase, generating $10 million in additional annual revenue.
-- Reduced cart abandonment: 10% reduction.
-- Improved customer satisfaction: 5% increase.
+- **Increased conversions**: 15% increase, generating $10 million in additional annual revenue.
+- **Reduced cart abandonment**: 10% reduction.
+- **Improved customer satisfaction**: 5% increase.
 
