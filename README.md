@@ -42,7 +42,6 @@ Our architecture leverages highly scalable AWS services:
 
 **Example:** John Doe, a frequent customer who purchased an iPhone 14 Pro, browses the mobile accessories section. Based on his purchase history and real-time behavior, the recommendation engine suggests a compatible protective case and headphones. Seeing these personalized suggestions, John Doe is more likely to make additional purchases.
 
-**This real-time recommendation engine not only enhances the customer experience but also drives sales and business growth.**
 
 **Would you like to delve deeper into the technical aspects of the architecture or explore the machine learning models used for generating recommendations?**
 
