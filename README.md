@@ -59,14 +59,14 @@ Our architecture leverages highly scalable AWS services:
 - **Business justification**: The complexity of recommendation models requires a distributed computing environment.
 
 #### Data Storage: S3
-- Why S3: Stores petabytes of data with 99.999999999% durability. Offers scalable and cost-effective storage options.
-- Why not RDS, EFS, etc.: RDS is for relational databases, and EFS is for shared file systems.
-- Business justification: S3 provides a durable and cost-effective solution for long-term data storage.
+- **Why S3**: Stores petabytes of data with 99.999999999% durability. Offers scalable and cost-effective storage options.
+- **Why not RDS, EFS, etc.**: RDS is for relational databases, and EFS is for shared file systems.
+- **Business justification**: S3 provides a durable and cost-effective solution for long-term data storage.
 
 #### Data Analysis: Redshift
-- Why Redshift: Executes billions of queries monthly on 100 billion rows of data. Offers high performance and scalability.
-- Why not Athena, EMR, etc.: Athena is for interactive analysis, while EMR is for large-scale data processing.
-- Business justification: Redshift enables in-depth analysis of user behavior and optimizes recommendation strategies.
+- **Why Redshift**: Executes billions of queries monthly on 100 billion rows of data. Offers high performance and scalability.
+- **Why not Athena, EMR, etc.**: Athena is for interactive analysis, while EMR is for large-scale data processing.
+- **Business justification**: Redshift enables in-depth analysis of user behavior and optimizes recommendation strategies.
 
 #### Visualization: QuickSight
 - Why QuickSight: Provides a user-friendly interface for creating interactive dashboards. Easily connects to various data sources.
