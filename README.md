@@ -5,7 +5,7 @@ In today's highly competitive e-commerce landscape, delivering personalized and 
 
 **Quantifying the Challenge**:
 
-Data Volume: We process 100 million events daily, including purchases, website visits, product searches, and page views.
-Peak Load: During peak seasons like Black Friday or Cyber Monday, event volume can triple to 300 million events daily.
-Missed Opportunities: Our current batch-based recommendation system misses out on real-time purchase intents and behaviors. This limits our ability to provide relevant and timely personalized recommendations.
+- Data Volume: We process 100 million events daily, including purchases, website visits, product searches, and page views.
+- Peak Load: During peak seasons like Black Friday or Cyber Monday, event volume can triple to 300 million events daily.
+- Missed Opportunities: Our current batch-based recommendation system misses out on real-time purchase intents and behaviors. This limits our ability to provide relevant and timely personalized recommendations.
 ![image](https://github.com/diegovillatoromx/e-commerce-analytics-pipeline/blob/main/event.driven-analysis.png)
