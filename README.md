@@ -54,26 +54,27 @@ Our architecture leverages highly scalable AWS services:
 - **Business justification**: Real-time processing is essential for delivering timely personalized recommendations. KDS guarantees that each user interaction is processed promptly.
 
 #### Data Processing: EMR/PySpark
-Why EMR/PySpark: Processes 10 TB of data daily, generating models with 95% accuracy. Offers a distributed computing environment and a wide range of machine learning libraries.
-Why not Lambda, Athena, etc.: Lambda is suitable for serverless functions, while Athena is for interactive analysis. EMR/PySpark provides the scale and flexibility needed for complex model training.
-Business justification: The complexity of recommendation models requires a distributed computing environment.
+- **Why EMR/PySpark**: Processes 10 TB of data daily, generating models with 95% accuracy. Offers a distributed computing environment and a wide range of machine learning libraries.
+- **Why not Lambda, Athena, etc.**: Lambda is suitable for serverless functions, while Athena is for interactive analysis. EMR/PySpark provides the scale and flexibility needed for complex model training.
+- **Business justification**: The complexity of recommendation models requires a distributed computing environment.
 
 #### Data Storage: S3
-Why S3: Stores petabytes of data with 99.999999999% durability. Offers scalable and cost-effective storage options.
-Why not RDS, EFS, etc.: RDS is for relational databases, and EFS is for shared file systems.
-Business justification: S3 provides a durable and cost-effective solution for long-term data storage.
+- Why S3: Stores petabytes of data with 99.999999999% durability. Offers scalable and cost-effective storage options.
+- Why not RDS, EFS, etc.: RDS is for relational databases, and EFS is for shared file systems.
+- Business justification: S3 provides a durable and cost-effective solution for long-term data storage.
 
 #### Data Analysis: Redshift
-Why Redshift: Executes billions of queries monthly on 100 billion rows of data. Offers high performance and scalability.
-Why not Athena, EMR, etc.: Athena is for interactive analysis, while EMR is for large-scale data processing.
-Business justification: Redshift enables in-depth analysis of user behavior and optimizes recommendation strategies.
+- Why Redshift: Executes billions of queries monthly on 100 billion rows of data. Offers high performance and scalability.
+- Why not Athena, EMR, etc.: Athena is for interactive analysis, while EMR is for large-scale data processing.
+- Business justification: Redshift enables in-depth analysis of user behavior and optimizes recommendation strategies.
 
 #### Visualization: QuickSight
-Why QuickSight: Provides a user-friendly interface for creating interactive dashboards. Easily connects to various data sources.
-Why not Tableau, etc.: QuickSight offers tighter integration with other AWS services.
-Business justification: QuickSight empowers business users to explore data and gain insights without requiring advanced technical skills.
-Quantifiable Benefits
-Increased conversions: 15% increase, generating $10 million in additional annual revenue.
-Reduced cart abandonment: 10% reduction.
-Improved customer satisfaction: 5% increase.
+- Why QuickSight: Provides a user-friendly interface for creating interactive dashboards. Easily connects to various data sources.
+- Why not Tableau, etc.: QuickSight offers tighter integration with other AWS services.
+- Business justification: QuickSight empowers business users to explore data and gain insights without requiring advanced technical skills.
+
+#### Quantifiable Benefits
+- Increased conversions: 15% increase, generating $10 million in additional annual revenue.
+- Reduced cart abandonment: 10% reduction.
+- Improved customer satisfaction: 5% increase.
 
