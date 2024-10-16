@@ -69,9 +69,9 @@ Our architecture leverages highly scalable AWS services:
 - **Business justification**: Redshift enables in-depth analysis of user behavior and optimizes recommendation strategies.
 
 #### Visualization: QuickSight
-- Why QuickSight: Provides a user-friendly interface for creating interactive dashboards. Easily connects to various data sources.
-- Why not Tableau, etc.: QuickSight offers tighter integration with other AWS services.
-- Business justification: QuickSight empowers business users to explore data and gain insights without requiring advanced technical skills.
+- **Why QuickSight**: Provides a user-friendly interface for creating interactive dashboards. Easily connects to various data sources.
+- **Why not Tableau, etc.**: QuickSight offers tighter integration with other AWS services.
+- **Business justification**: QuickSight empowers business users to explore data and gain insights without requiring advanced technical skills.
 
 #### Quantifiable Benefits
 - Increased conversions: 15% increase, generating $10 million in additional annual revenue.
