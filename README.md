@@ -16,7 +16,7 @@ In today's highly competitive e-commerce landscape, delivering personalized and 
 
 To overcome these challenges, we propose a **Real-Time Personalized Recommendation Engine** built on a robust cloud-based data architecture.
 
-**Quantifiable Benefits:**
+**Quantifiable Benefits:** 
 
 * **Real-Time Processing:** Process **100 million events daily** in real-time, enabling immediate responses to user actions.
 * **Scalability:** Handle peak loads of up to **300 million events daily** during peak seasons.
